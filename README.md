@@ -56,7 +56,6 @@ roslaunch gazebo_ros FinalHouse.launch
 To run the project and see the output in the gazebo world , execute the following steps:
 ```
 cd ~/catkin_ws
-catkin_make
 source devel/setup.bash
 roslaunch line_follower_turtlebot Lfmw.launch
 ```
