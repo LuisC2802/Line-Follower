@@ -15,7 +15,7 @@ catkin_make
 - Cloning the repository.
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/LuisC2802/Line-Follower.git
+git clone https://github.com/LuisC2802/line_follower_turtlebot.git
 ```
 
 # Setting up the Gazebo
