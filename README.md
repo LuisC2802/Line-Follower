@@ -51,6 +51,7 @@ To validate the correct set up of the world, run the world launch in the Gazebo.
 cd
 roslaunch gazebo_ros FinalHouse.launch
 ```
+![GitHub-World](https://user-images.githubusercontent.com/82512521/118070662-ef253e00-b36b-11eb-9b4f-703a12e239c2.png)
 # To run
 To run the project and see the output in the gazebo world , execute the following steps:
 ```
@@ -59,4 +60,3 @@ catkin_make
 source devel/setup.bash
 roslaunch line_follower_turtlebot Lfmw.launch
 ```
-![]()
