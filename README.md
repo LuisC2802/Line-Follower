@@ -22,7 +22,7 @@ git clone https://github.com/LuisC2802/line_follower_turtlebot.git
 To build the Gazebo world:
  - Add the models.tar.gz to the directory .gazebo/models and extract the tar.gz file.
  ```
-cd ~/catkin_ws/src
+cd ~/catkin_ws/src/line_follower_turtlebot
 mv models.tar.gz .gazebo/models
 cd .gazebo/models
 tar --extract --file models.tar.gz
@@ -36,13 +36,13 @@ gazebo
 # Setting up the .world file
 Now, you should move the FinalHouse.world to the gazebo directory:
 ```
-cd ~/catkin_ws/src
+cd ~/catkin_ws/src/line_follower_turtlebot
 mv FinalHouse.world /usr/share/gazebo-7/worlds
 ```
 # Setting up the .launch file
 Now, you should move the FinalHouse.launch to the gazebo directory:
 ```
-~/catkin_ws/src
+~/catkin_ws/src/line_follower_turtlebot
 mv FinalHouse.launch /opt/ros/kinetic/share/gazebo_ros/launch
 ```
 # Run the world launch
