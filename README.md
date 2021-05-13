@@ -33,3 +33,24 @@ mv FinalHouse.world /usr/share/gazebo-7/worlds
 Now, you should move the FinalHouse.launch to the gazebo directory:
 ```
 mv FinalHouse.launch /opt/ros/kinetic/share/gazebo_ros/launch
+```
+# Run the world launch
+To validate the correct set up of the world, run the world launch in the Gazebo.
+```
+roslaunch gazebo_ros FinalHouse.launch
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
