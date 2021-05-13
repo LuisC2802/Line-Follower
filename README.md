@@ -27,7 +27,7 @@ mv models.tar.gz .gazebo/models
 cd .gazebo/models
 tar --extract --file models.tar.gz
 ```
- To validate the correct process, in a terminal, start Gazebo
+ To validate the correct process, in a terminal, start Gazebo:
 ```
 gazebo
 ```
@@ -59,3 +59,4 @@ catkin_make
 source devel/setup.bash
 roslaunch line_follower_turtlebot Lfmw.launch
 ```
+![]()
