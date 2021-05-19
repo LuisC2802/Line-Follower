@@ -30,7 +30,7 @@ To build the Gazebo world:
  - Add the models.tar.gz to the directory .gazebo/models and extract the tar.gz file.
  ```
 cd ~/catkin_ws/src/line_follower_turtlebot
-mv models.tar.gz .gazebo/models
+mv models.tar.gz ~/.gazebo/models
 cd .gazebo/models
 tar --extract --file models.tar.gz
 ```
