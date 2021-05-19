@@ -44,13 +44,13 @@ gazebo
 Now, you should move the FinalHouse.world to the gazebo directory:
 ```
 cd ~/catkin_ws/src/line_follower_turtlebot
-mv FinalHouse.world /usr/share/gazebo-7/worlds
+sudo mv FinalHouse.world /usr/share/gazebo-7/worlds
 ```
 # Setting up the .launch file
 Now, you should move the FinalHouse.launch to the gazebo directory:
 ```
 ~/catkin_ws/src/line_follower_turtlebot
-mv FinalHouse.launch /opt/ros/kinetic/share/gazebo_ros/launch
+sudo mv FinalHouse.launch /opt/ros/kinetic/share/gazebo_ros/launch
 ```
 # Run the world launch
 To validate the correct set up of the world, run the world launch in the Gazebo.
