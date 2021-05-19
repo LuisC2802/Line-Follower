@@ -3,6 +3,13 @@
 # Introduction
 This project uses ROS to simulate a line-following Turtlebot robot in the Gazebo environment using a world designed by the authors.
 
+#Install Turtlebot
+First, is necessary install the turtlebot (http://wiki.ros.org/Robots/TurtleBot) using: 
+```
+ sudo apt-get install ros-kinetic-turtlebot-*
+```
+After this, we can continue creating our workspace.
+
 # Creating a work space
 To build the project run the following steps in a terminal:
 - Creating a catkin workspace:
